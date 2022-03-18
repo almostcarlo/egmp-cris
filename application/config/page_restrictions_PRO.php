@@ -1,0 +1,4 @@
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+/*PROFILE*/
+//list of pages which cannot be accessed
+$config['restricted_pages'] = array('recruitment/lists/cv_transmittal','operations/search','operations/forms','medical/search','medical/forms', 'processing/search/visa','processing/forms/visa','processing/search/poea','processing/forms/poea','reports/recruitment/project_distribution','reports/operations/forms/deployment', 'reports/operations/forms/stat_monitor', 'settings/search/rec_fee', 'settings/forms/rec_fee', 'recruitment/lists/cv_for_followup', 'recruitment/lists/cv_for_sending', 'recruitment/lists/final_lineup', 'recruitment/lists/confirmed_lineup');
